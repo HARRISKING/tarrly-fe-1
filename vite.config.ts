@@ -7,7 +7,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { svgstore } from './src/vite_plugins/svgstore';
 
 // https://vitejs.dev/config/
-export default defineConfig(({command}) => {
+export default defineConfig(({ command }) => {
   return {
     define: command === 'build' ? {
       DEBUG: false
@@ -51,9 +51,9 @@ export default defineConfig(({command}) => {
         },
         includeAssets: ['favicon.ico', 'pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
-          name: '山竹记账',
-          short_name: '山竹',
-          description: '山竹记账',
+          name: '记账宝',
+          short_name: '记账宝',
+          description: '记账宝',
           theme_color: '#ffffff',
           icons: [
             {
