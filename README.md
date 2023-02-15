@@ -4,7 +4,7 @@
 
 ```bash
 pnpm run build --base /
-bin/coscli-linux cp -r dist cos://mangosteen-test-3-1305090081
+bin/coscli-linux cp -r dist cos://tally-test-3-1305090081
 ```
 
 ## 编码规范
